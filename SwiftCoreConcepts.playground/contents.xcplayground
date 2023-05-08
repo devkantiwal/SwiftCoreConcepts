@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='5.0' target-platform='ios' buildActiveScheme='true' executeOnSourceChanges='false' importAppTypes='true'>
-    <timeline fileName='timeline.xctimeline'/>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Class'/>
+        <page name='Enum'/>
+        <page name='Collection types'/>
+        <page name='Optional Chaining and Binding'/>
+        <page name='Strings, Character'/>
+    </pages>
 </playground>
