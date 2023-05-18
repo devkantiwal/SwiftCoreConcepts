@@ -1,4 +1,0 @@
-// STRINGS AND CHARACTERS
-
-
-

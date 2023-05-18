@@ -29,7 +29,9 @@ class Calculator {
 }
 
 class NoLazy {
-    var gamesPlayed: [Int] {  Calculator.gamePlayed() }
+    var gamesPlayed: [Int] = {
+        Calculator.gamePlayed()
+    }()
 }
 
 var objNoLazy = NoLazy()
@@ -40,16 +42,13 @@ var objNoLazy = NoLazy()
 
 class WithLazy {
    lazy var gamesPlayed: [Int] = {
-        Calculator.gamePlayed()
-    }()
+       Calculator.gamePlayed()
+   }()
 }
 
 var objWithLazy = WithLazy()
 
-objWithLazy.gamesPlayed
-objWithLazy.gamesPlayed
-objWithLazy.gamesPlayed
-
+// Impact of lazy on memory
 
 // DEFER
 
@@ -95,6 +94,7 @@ func captureTest() {
    print(fullName)
 }
 
+
 captureTest()
 
 // When you declare a class as being final, no other class can inherit from it. This means they can’t override your methods in order to change your behavior – they need to use your class the way it was written.
@@ -108,3 +108,6 @@ final class Dog {
         self.breed = breed
     }
 }
+
+// Never keyword
+

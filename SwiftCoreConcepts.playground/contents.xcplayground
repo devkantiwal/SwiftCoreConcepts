@@ -8,9 +8,9 @@
         <page name='Strings, Character'/>
         <page name='Lazy, Defer and Final'/>
         <page name='LifeCycle'/>
-        <page name='Strings, Character copy 4'/>
+        <page name='Deep vs Shallow copy'/>
         <page name='Initi and De-Init'/>
-        <page name='Strings, Character copy 6'/>
-        <page name='Guess the output'/>
+        <page name='Weak, Assign, copy and retain'/>
+        <page name='ABI and App Thinning'/>
     </pages>
 </playground>

@@ -17,6 +17,13 @@ struct Member{
 }
 var objDefault = Member(name: "dev")
 
+func showSomething() {
+    print("")
+}
+
+
+// Que: why class don't support memberwise init
+
 // Designated init for class and struct
 class ItemA {
     var name: String
@@ -43,7 +50,6 @@ var objFail = person(uidai: "1234")
 
 
 // convenience
-
 class Cake {
     var quantity: Int
     var name: String
@@ -56,6 +62,7 @@ class Cake {
         self.init(quantity: 1, name: cakeName)
     }
 }
+
 
 
 // DE-INIT
