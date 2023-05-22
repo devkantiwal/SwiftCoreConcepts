@@ -12,5 +12,10 @@
         <page name='Initi and De-Init'/>
         <page name='Weak, Assign, copy and retain'/>
         <page name='ABI and App Thinning'/>
+        <page name='Functions and Methods'/>
+        <page name='Closure'/>
+        <page name='Protocols'/>
+        <page name='Generics'/>
+        <page name='empty'/>
     </pages>
 </playground>
